@@ -1,12 +1,11 @@
 # Automatic High Resolution Wire Segmentation and Removal
 
-Mang Tik Chiu<sup>1</sup>, Xuaner (Cecilia) Zhang<sup>2</sup>, Zijun Wei<sup>2</sup>, Yuqian Zhou<sup>2</sup>, Eli Shechtman<sup>2</sup>,
-Connelly Barnes<sup>2</sup>, Zhe Lin<sup>2</sup>, Florian Kainz<sup>2</sup>, Sohrab Amirghodsi<sup>2</sup>, Humphrey Shi<sup>1,3</sup>
+<a href="" target="_blank">Mang Tik Chiu</a><sup>1</sup>, <a href="https://ceciliavision.github.io/" target="_blank">Xuaner Zhang</a><sup>2</sup>, <a href="" target="_blank">Zijun Wei</a><sup>2</sup>, <a href="https://yzhouas.github.io/" target="_blank">Yuqian Zhou</a><sup>2</sup>, <a href="https://research.adobe.com/person/eli-shechtman/" target="_blank">Eli Shechtman</a><sup>2</sup>,
+<a href="http://www.connellybarnes.com/work/" target="_blank">Connelly Barnes</a><sup>2</sup>, <a href="https://research.adobe.com/person/zhe-lin/" target="_blank">Zhe Lin</a><sup>2</sup>, <a href="" target="_blank">Florian Kainz</a><sup>2</sup>, <a href="" target="_blank">Sohrab Amirghodsi</a><sup>2</sup>, <a href="https://www.humphreyshi.com/" target="_blank">Humphrey Shi</a><sup>1,3</sup>
 
 <sup>1</sup>UIUC, <sup>2</sup>Adobe, <sup>3</sup>University of Oregon
 
-CVPR 2023
-<a href="" target="_blank">Paper</a>
+\[<a href="" target="_blank">CVPR 2023</a>\] \[<a href="https://arxiv.org/abs/2304.00221" target="_blank">arXiv</a>\]
 
 <img src="teaser.jpg" width="100%"/>
 
@@ -19,16 +18,16 @@ We release test images from our WireSegHR dataset. The images and annotations ca
 ## Dataset folder structure
 
 ```
-WireSegHR\
-├── images\
-│   ├── image_1.jpg\
+WireSegHR
+├── images
+│   ├── image_1.jpg
 │   ...
-│   └── image_N.jpg\
+│   └── image_N.jpg
 │
-└── gts\
-    ├── image_1.png\
+└── gts
+    ├── image_1.png
     ...
-    └── image_N.png\
+    └── image_N.png
 ```
 
 Annotations are paletted binary images with values 0 or 1.
